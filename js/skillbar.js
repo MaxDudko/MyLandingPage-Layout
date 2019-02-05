@@ -2,28 +2,28 @@ const circlesArray = [
   document.getElementById('circle1').getContext('2d'),
   document.getElementById('circle2').getContext('2d'),
   document.getElementById('circle3').getContext('2d'),
-  document.getElementById('circle4').getContext('2d'),
-  document.getElementById('circle5').getContext('2d'),
-  document.getElementById('circle6').getContext('2d'),
-  document.getElementById('circle7').getContext('2d'),
-  document.getElementById('circle8').getContext('2d'),
-  document.getElementById('circle9').getContext('2d'),
-  document.getElementById('circle10').getContext('2d'),
-  document.getElementById('circle11').getContext('2d')
+//  document.getElementById('circle4').getContext('2d'),
+//  document.getElementById('circle5').getContext('2d'),
+//  document.getElementById('circle6').getContext('2d'),
+//  document.getElementById('circle7').getContext('2d'),
+//  document.getElementById('circle8').getContext('2d'),
+//  document.getElementById('circle9').getContext('2d'),
+//  document.getElementById('circle10').getContext('2d'),
+//  document.getElementById('circle11').getContext('2d')
 ];
 //***SKILLS(id) : VALUE(%)***//
 const skillsArray = {
   HTML: 0,
   CSS: 0,
   JavaScript: 0,
-  jQuery: 0,
-  Bootstrap: 0,
-  Sass: 0,
-  'React-Redux': 0,
-  NodeJS: 0,
-  PHP: 0,
-  Python: 0,
-  SQL: 0
+//  jQuery: 0,
+//  Bootstrap: 0,
+//  Sass: 0,
+//  'React-Redux': 0,
+//  NodeJS: 0,
+//  PHP: 0,
+//  Python: 0,
+//  SQL: 0
 };
 for (let i = 0; i < circlesArray.length; i++) {
   circlesArray[i].lineWidth = 3; //thickness of the line
@@ -81,4 +81,3 @@ function loadSkills(id, value) {
 
   let sim = setInterval(progressSim, 20); //speed
 }
-
