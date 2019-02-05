@@ -105,17 +105,12 @@ footer .col-12 {
 h1, h2, h3, h4, p {
   border: 1px solid purple;
 }*/
-#circle1,#circle2,#circle3,#circle4,#circle5,#circle6,#circle7 {
+#circle1,#circle2,#circle3,#circle4,#circle5,#circle6,#circle7,#circle8,#circle9,#circle10,#circle11,#circle12 {
   position: absolute;
 }
-#html,#css,#js,#bootstrap,#sass,#jq,#react {
+#HTML,#CSS,#JavaScript,#jQuery,#Bootstrap,#Sass,#React-Redux,#NodeJS,#PHP,#Python,#SQL,#WordPress,#Webpack {
   position: relative;
 }
-#skills h4 {
-  text-shadow: 1px 1px 1px rgba(25,25,112,1);
-  font-size: 2vh;
-}
-#skills  h4:hover {
-  transform: scale(0.9);
-  transition: 3s;
-}
+/*div {
+border: 1px solid rgba(25,25,112,0.7);
+}*/
