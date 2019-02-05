@@ -22,10 +22,16 @@ nav:hover {
   box-shadow: 5px 3px 5px rgba(25,25,112,0.9);
   text-shadow: 2px 5px 1px rgba(25,25,112,1);
   border-radius: 40px;
+  transform: scale(0.9) rotate(-5deg);
+  transition: 3s;
 }
-#NavLink li:hover {
-  transform: scale(0.9);
-  transition: 1s;
+#NavLink li:nth-child(2n):hover {
+  transform: scale(0.9) rotate(5deg);
+  transition: 3s;
+}
+#NavLink li:nth-child(2n+1):hover {
+  transform: scale(0.9) rotate(-5deg);
+  transition: 3s;
 }
 #NavLink a:hover {
   text-shadow: 2px 3px 1px rgba(25,25,112,1);
@@ -60,10 +66,10 @@ footer .col-12 {
 }
 #ContactBar a:hover {
   text-shadow: 2px 3px 1px rgba(25,25,112,1);
-  transform: scale(0.9);
-  transition: 1s;
+  transform: scale(0.8);
+  transition: 3s;
 }
-#Main {
+.container {
   border: 1px solid rgba(25,25,112,0.7);
   box-shadow: 10px 5px 20px rgba(25,25,112,0.7);
   border-radius: 30px;
@@ -71,12 +77,45 @@ footer .col-12 {
   text-align: center;
   align-self: center;
 }
-#Main:hover {
+/*.container:hover {
   box-shadow: 10px 5px 30px rgba(25,25,112,0.9);
-  transform: scale(1.0001);
   opacity: 1;
-  transition: 1s;
+  transition: 3s;
+}*/
+#its-me {
+  background: url(../img/itsme1.png) no-repeat center;
+  background-size: auto 100%;
+  min-height: 300px;
+
 }
-pre {
-  color: #C0C0C0;
+#its-me:hover {
+  background: url(../img/itsme2.png) no-repeat center;
+  background-size: auto 100%;
+  height: 100%;
+  transition: 3s;
+}
+#its-me:hover ~ h3 {
+  transform: scale(0.9);
+  text-shadow: 2px 5px 1px rgba(25,25,112,1);
+  transition: 3s;
+}
+/*div {
+  border: 1px solid blue;
+}
+h1, h2, h3, h4, p {
+  border: 1px solid purple;
+}*/
+#circle1,#circle2,#circle3,#circle4,#circle5,#circle6,#circle7 {
+  position: absolute;
+}
+#html,#css,#js,#bootstrap,#sass,#jq,#react {
+  position: relative;
+}
+#skills h4 {
+  text-shadow: 1px 1px 1px rgba(25,25,112,1);
+  font-size: 2vh;
+}
+#skills  h4:hover {
+  transform: scale(0.9);
+  transition: 3s;
 }

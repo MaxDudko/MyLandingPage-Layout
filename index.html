@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>My LandingPage</title>
-    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="Navbar">
@@ -16,13 +17,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav" id="NavLink">
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUTme</a>
+            <a class="nav-link" href="#about">ABOUTme</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">mySERVICES</a>
+            <a class="nav-link" href="#services">mySERVICES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">myPORTFOLIO</a>
+            <a class="nav-link" href="#portfolio">myPORTFOLIO</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">myBLOG</a>
@@ -33,129 +34,93 @@
         </ul>
       </div>
     </nav>
-    <main class="container mt-md-5 mb-md-5" id="Main">
-      <div class="container-fluide">
-        <h2>ABOUT ME</h2>
+    <main>
+      <div class="container mt-md-5 mb-md-5" id="about">
         <div class="row">
-          <div class="col-4 align-content-between">
-            <div style="width: 50%; height: 50%; border: 1px">My Photo</div>
-            <h3>My Name</h3>
-            <h4>My Profession</h4>
+          <h2 class="col-12">ABOUT ME</h2>
+          <div class="col-12 col-md-4">
+            <div class="container-fluide">
+            <div id="its-me"></div>
+              <h3>Max Dudko</h3>
+              <h3>FrontEnd Developer</h3>
+            </div>
           </div>
-          <div class="col-8">
-            <p>Lorem ipsum dolor sit amet, et erat vitae vocent nam. Autem prodesset sententiae est ne. Pri posse alterum no, has veritus principes voluptatibus eu. Est diam eripuit scriptorem ad, an omnes salutandi sadipscing eum. Mucius mentitum in cum, ut officiis principes sit. Liber percipit elaboraret sit ad, cu vim dico oblique definitionem, in tacimates signiferumque est.
+          <div class="col-12 col-md-8">
 
-Duo saepe volumus expetenda ei. Pro in quod insolens, ut pri dictas scripta. Menandri hendrerit intellegam at duo, id laboramus cotidieque vis. Ad has oporteat sapientem. Amet vocent assentior ad vis.
-
-Ne delicata democritum vituperata duo. Cu has facer decore. Id usu vocibus fabellas. At unum falli omnes ius, sed everti periculis erroribus ex. Quo vide dicit forensibus ex, his ei natum scriptorem. Ad posse discere accusata est.
-
-No nostro dictas equidem pro, molestie copiosae imperdiet eam ex. Sit et velit aeque vidisse, sit ullum expetendis efficiendi ea. Ne eam petentium gloriatur, et porro soluta officiis qui. Mea illum dolorem an, ad duis nihil pri. Ius sint illud virtute ex. Ad odio iracundia pro, ad eius utroque ius. Veri adhuc quodsi ea pro.
-
-Nam accusata accommodare delicatissimi id, id mutat aperiam sit. Nam stet nullam democritum et. Per nibh tantas ad, te pro duis utamur. In ius vocibus expetendis. Ei pro probo admodum, debet invidunt menandri te vel. In epicuri philosophia has.</p>
           </div>
         </div>
-        <h2>MY SKILLS</h2>
-        <div class="row">
-          <div class="col-3">
-            <pre>SKILL-1
-            ......
-            ........
-            .....</pre>
+        <div class="row" id="skills">
+          <h2 class="col-12 mt-5">MY SKILLS</h2>
+          <div class=" col text-center">
+            <canvas id="circle1" width="120" height="120"></canvas>
+            <canvas id="html" width="120" height="120" class=""></canvas>
+            <h4>HTML(5)</h4>
           </div>
-          <div class="col-3">
-            <pre>SKILL-2
-            ......
-            ........
-            .....</pre>
+          <div class="col text-center">
+            <canvas id="circle2" width="120" height="120"></canvas>
+            <canvas id="css" width="120" height="120" class=""></canvas>
+            <h4>CSS(3)</h4>
           </div>
-          <div class="col-3">
-            <pre>SKILL-3
-            ......
-            ........
-            .....</pre>
+          <div class="col text-center">
+            <canvas id="circle3" width="120" height="120"></canvas>
+            <canvas id="js" width="120" height="120" class=""></canvas>
+            <h4>JavaScript(ES6+)</h4>
           </div>
-          <div class="col-3">
-            <pre>SKILL-4
-            ......
-            ........
-            .....</pre>
+          <div class="col text-center">
+            <canvas id="circle4" width="120" height="120"></canvas>
+            <canvas id="bootstrap" width="120" height="120" class=""></canvas>
+            <h4>Bootstrap(4)</h4>
           </div>
-          <div class="col-3">
-            <pre>SKILL-5
-            ......
-            ........
-            .....</pre>
+          <div class="col text-center">
+            <canvas id="circle5" width="120" height="120"></canvas>
+            <canvas id="sass" width="120" height="120" class=""></canvas>
+            <h4>SASS</h4>
           </div>
-          <div class="col-3">
-            <pre>SKILL-6
-            ......
-            ........
-            .....</pre>
+          <div class="col text-center">
+            <canvas id="circle6" width="120" height="120"></canvas>
+            <canvas id="jq" width="120" height="120" class=""></canvas>
+            <h4>jQuery</h4>
           </div>
-          <div class="col-3">
-            <pre>SKILL-7
-            ......
-            ........
-            .....</pre>
-          </div>
-          <div class="col-3">
-            <pre>SKILL-8
-            ......
-            ........
-            .....</pre>
+          <div class="col text-center">
+            <canvas id="circle7" width="120" height="120"></canvas>
+            <canvas id="react" width="120" height="120" class=""></canvas>
+            <h4>React</h4>
           </div>
         </div>
       </div>
-      <div class="container-fluide">
-        <h2>Services</h2>
+      <div class="container mt-md-5 mb-md-5" id="services">
         <div class="row">
+          <h2 class="col-12">Services</h2>
           <div class="col-3">
-            <pre>Service-1
-            ......
-            ........
-            .....</pre>
+
           </div>
           <div class="col-3">
-            <pre>Service-2
-            ......
-            ........
-            .....</pre>
+
           </div>
           <div class="col-3">
-            <pre>Service-3
-            ......
-            ........
-            .....</pre>
+
           </div>
           <div class="col-3">
-            <pre>Service-4
-            ......
-            ........
-            .....</pre>
+
+          </div>
+        </div>
+      </div>
+      <div class="container mt-md-5 mb-md-5" id="portfolio">
+        <div class="row">
+          <h2 class="col-12">Portfolio</h2>
+          <div class="col-3">
+
           </div>
           <div class="col-3">
-            <pre>Service-5
-            ......
-            ........
-            .....</pre>
+
           </div>
           <div class="col-3">
-            <pre>Service-6
-            ......
-            ........
-            .....</pre>
+
           </div>
           <div class="col-3">
-            <pre>Service-7
-            ......
-            ........
-            .....</pre>
+
           </div>
-          <div class="col-3">
-            <pre>Service-8
-            ......
-            ........
-            .....</pre>
+        </div>
       </div>
     </main>
     <footer class="footer bg-dark" id="Footer">
@@ -164,13 +129,13 @@ Nam accusata accommodare delicatissimi id, id mutat aperiam sit. Nam stet nullam
           <div class="col-12 col-md-4">
             <ul class="navbar-nav" id="NavLink">
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUTme</a>
+                <a class="nav-link" href="#about">ABOUTme</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">mySERVICES</a>
+                <a class="nav-link" href="#services">mySERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">myPORTFOLIO</a>
+                <a class="nav-link" href="#portfolio">myPORTFOLIO</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">myBLOG</a>
@@ -184,35 +149,35 @@ Nam accusata accommodare delicatissimi id, id mutat aperiam sit. Nam stet nullam
             <div class="container" id="ContactBar">
               <div class="row">
                 <div class="col-3">
-                  <a href="#" target="_blank"><img src="img/github.svg" alt="GitHub" />
+                  <a href="#" target="_blank"><img src="img/github.svg" alt="GitHub">
                   <span>GitHub</span></a>
                 </div>
                 <div class="col-3">
-                  <a href="#" target="_blank"><img className="img-fluid" src="img/linkedin.svg" alt="LinkedIn" />
+                  <a href="#" target="_blank"><img className="img-fluid" src="img/linkedin.svg" alt="LinkedIn">
                   <span>LinkedIn</span></a>
                 </div>
                 <div class="col-3">
-                  <a href="#" target="_blank"><img className="img-fluid" src="img/email.svg" alt="E-Mail" />
+                  <a href="#" target="_blank"><img className="img-fluid" src="img/email.svg" alt="E-Mail">
                   <span>E-Mail</span></a>
                 </div>
                 <div class="col-3">
-                  <a href="#" target="_blank"><img className="img-fluid" src="img/telegram.svg" alt="Telegram" />
+                  <a href="#" target="_blank"><img className="img-fluid" src="img/telegram.svg" alt="Telegram">
                   <span>Telegram</span></a>
                 </div>
                 <div class="col-3">
-                  <a href="#" target="_blank"><img className="img-fluid" src="img/youtube.svg" alt="YouTube" />
+                  <a href="#" target="_blank"><img className="img-fluid" src="img/youtube.svg" alt="YouTube">
                   <span>YouTube</span></a>
                 </div>
                 <div class="col-3">
-                  <a href="#" target="_blank"><img className="img-fluid" src="img/instagram.svg" alt="Instagram" />
+                  <a href="#" target="_blank"><img className="img-fluid" src="img/instagram.svg" alt="Instagram">
                   <span>Instagram</span></a>
                 </div>
                 <div class="col-3">
-                  <a href="#" target="_blank"><img className="img-fluid" src="img/facebook.svg" alt="Facebook" />
+                  <a href="#" target="_blank"><img className="img-fluid" src="img/facebook.svg" alt="Facebook">
                   <span>Facebook</span></a>
                 </div>
                 <div class="col-3">
-                  <a href="#" target="_blank"><img className="img-fluid" src="img/twitter.svg" alt="Twitter" />
+                  <a href="#" target="_blank"><img className="img-fluid" src="img/twitter.svg" alt="Twitter">
                   <span>Twitter</span></a>
                 </div>
               </div>
@@ -227,5 +192,6 @@ Nam accusata accommodare delicatissimi id, id mutat aperiam sit. Nam stet nullam
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/skillbar.js"></script>
   </body>
 </html>
