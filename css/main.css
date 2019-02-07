@@ -114,6 +114,9 @@ h1, h2, h3, h4, p {
 .barDiv {
   border: 1px solid rgba(25,25,112,0.7);
 }
-/*div {
+div {
 border: 1px solid rgba(25,25,112,0.7);
-}*/
+}
+.blog-links {
+  height: 100%;
+}
