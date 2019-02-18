@@ -10,6 +10,7 @@ html, body,#root, #App {
 nav {
   border: 1px solid rgba(25,25,112,0.7);
   box-shadow: 10px 5px 20px rgba(25,25,112,0.7);
+  opacity: 0.5;
 }
 nav:hover {
   box-shadow: 10px 5px 30px rgba(25,25,112,0.9);
