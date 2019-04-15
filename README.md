@@ -1,2 +1,2 @@
 # MyLandingPage-Layout
-<a href="https://github.com/MaxDudko/Sell-it_Layout">in progress...</a>
+<a href="https://maxdudko.github.io/MyLandingPage-Layout/">in progress...</a>
